@@ -57,11 +57,11 @@ export const MfaVerifyTotpForm = ({mfaProps, onFinish}) => {
         name="passcode"
         rules={[{required: true, message: "Please input your passcode"}]}
       >
-        <Input
+        <Input.OTP
           style={{marginTop: 24}}
-          prefix={<UserOutlined />}
-          placeholder={i18next.t("mfa:Passcode")}
-          autoComplete="off"
+          onChange={() => {
+            form.submit();
+          }}
         />
       </Form.Item>
       <Form.Item
