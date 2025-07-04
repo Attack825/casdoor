@@ -69,7 +69,9 @@ export const MfaVerifyTotpForm = ({mfaProps, onFinish, organization}) => {
         valuePropName="checked"
       >
         <Checkbox>
-          {i18next.t("mfa:Remember this device for ") + (organization?.mfaRememberInHours || 12) + " hours"}
+          {i18next.t("mfa:rememberThisDeviceWithHours", {
+            hours: organization?.mfaRememberInHours || 12,
+          })}
         </Checkbox>
       </Form.Item>
       <Form.Item>
