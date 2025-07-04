@@ -603,7 +603,8 @@
     "You have enabled Multi-Factor Authentication, please enter the TOTP code": "您已经启用多因素认证，请输入TOTP认证码",
     "Your email is": "你的电子邮件",
     "Your phone is": "你的手机号",
-    "preferred": "首选"
+    "preferred": "首选",
+    "Remember this device for {{hours}} hours": "记住这个设备 {{hours}} 小时"
   },
   "model": {
     "Advanced Editor": "高级编辑器",

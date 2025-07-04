@@ -603,7 +603,8 @@
     "You have enabled Multi-Factor Authentication, please enter the TOTP code": "You have enabled Multi-Factor Authentication, please enter the TOTP code",
     "Your email is": "Your email is",
     "Your phone is": "Your phone is",
-    "preferred": "preferred"
+    "preferred": "preferred",
+    "Remember this device for {{hours}} hours": "Remember this device for {{hours}} hours"
   },
   "model": {
     "Advanced Editor": "Advanced Editor",
