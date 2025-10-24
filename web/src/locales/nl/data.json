@@ -14,7 +14,7 @@
     "Rule type": "Regeltype",
     "Sync policies successfully": "Beleidsregels succesvol gesynchroniseerd",
     "Use same DB": "Gebruik dezelfde database",
-    "Use same DB - Tooltip": "Gebruik dezelfde database - Tooltip"
+    "Use same DB - Tooltip": "Gebruik dezelfde database als Casdoor"
   },
   "application": {
     "Add Face ID": "Face ID toevoegen",
@@ -114,8 +114,8 @@
     "Reset to Empty": "Reset naar leeg",
     "Right": "Rechts",
     "Rule": "Regel",
-    "SAML hash algorithm": "SAML hash algorithm",
-    "SAML hash algorithm - Tooltip": "Hash algorithm for SAML signature",
+    "SAML hash algorithm": "SAML hash-algoritme",
+    "SAML hash algorithm - Tooltip": "Hash-algoritme voor SAML-handtekening",
     "SAML metadata": "SAML-metadata",
     "SAML metadata - Tooltip": "De metadata van het SAML-protocol",
     "SAML reply URL": "SAML-antwoord-URL",
@@ -129,7 +129,7 @@
     "Signin items": "Inloginvoer",
     "Signin items - Tooltip": "Aanmelditems",
     "Signin methods": "Inlogmethoden",
-    "Signin methods - Tooltip": "Aanmeldmethoden - Tooltip",
+    "Signin methods - Tooltip": "Voeg toegestane aanmeldmethoden toe voor gebruikers. Standaard zijn alle methoden beschikbaar",
     "Signin session": "Inlogsessie",
     "Signup items": "Registratie-invoer",
     "Signup items - Tooltip": "Invoervelden voor gebruikers bij het registreren van nieuwe accounts",
@@ -146,7 +146,7 @@
     "Token signing method": "Token-ondertekeningsmethode",
     "Token signing method - Tooltip": "Ondertekeningsmethode van JWT-token, moet hetzelfde algoritme zijn als het certificaat",
     "Use Email as NameID": "E-mail gebruiken als NameID",
-    "Use Email as NameID - Tooltip": "Gebruik e-mail als NameID - Tooltip",
+    "Use Email as NameID - Tooltip": "Gebruik e-mail als NameID",
     "You are unexpected to see this prompt page": "U verwachtte deze promptpagina niet te zien"
   },
   "cert": {
@@ -233,7 +233,7 @@
   "general": {
     "AI Assistant": "AI-assistent",
     "API key": "API-sleutel",
-    "API key - Tooltip": "API-sleutel - Tooltip",
+    "API key - Tooltip": "API-sleutel",
     "Access key": "Toegangssleutel",
     "Access key - Tooltip": "Toegangssleutel - Tooltip",
     "Access secret": "Toegangsgeheim",
@@ -317,7 +317,7 @@
     "Favicon": "Favicon",
     "Favicon - Tooltip": "Favicon-pictogram-URL die op alle Casdoor-pagina's van de organisatie wordt gebruikt",
     "First name": "Voornaam",
-    "First name - Tooltip": "The first name of user",
+    "First name - Tooltip": "De voornaam van de gebruiker",
     "Forced redirect origin - Tooltip": "Gedwongen omleidings-origin",
     "Forget URL": "Wachtwoordvergeten-URL",
     "Forget URL - Tooltip": "Aangepaste URL voor de \"Wachtwoord vergeten\"-pagina. Indien niet ingesteld, wordt de standaard Casdoor \"Wachtwoord vergeten\"-pagina gebruikt. Wanneer ingesteld, verwijst de link op de inlogpagina naar deze URL",
@@ -345,7 +345,7 @@
     "Languages": "Talen",
     "Languages - Tooltip": "Beschikbare talen",
     "Last name": "Achternaam",
-    "Last name - Tooltip": "The last name of user",
+    "Last name - Tooltip": "De achternaam van de gebruiker",
     "Later": "Later",
     "Logging & Auditing": "Logboekregistratie & Audit",
     "Login page": "Login page",
@@ -507,7 +507,7 @@
     "Show all": "Alles weergeven",
     "Upload (.xlsx)": "Uploaden (.xlsx)",
     "Virtual": "Virtueel",
-    "You need to delete all subgroups first. You can view the subgroups in the left group tree of the [Organizations] -> [Groups] page": "U moet eerst alle subgroepen verwijderen. U kunt de subgroepen bekijken in de linkergroepenboom van de [Organisaties] -> [Groepen] pagina"
+    "You need to delete all subgroups first. You can view the subgroups in the left group tree of the [Organizations] -\u003e [Groups] page": "U moet eerst alle subgroepen verwijderen. U kunt de subgroepen bekijken in de linkergroepenboom van de [Organisaties] -\u003e [Groepen] pagina"
   },
   "home": {
     "New users past 30 days": "Nieuwe gebruikers afgelopen 30 dagen",
@@ -551,7 +551,7 @@
     "Filter fields": "Filtervelden",
     "Filter fields - Tooltip": "Filtervelden",
     "Group ID": "Groep-ID",
-    "LDAP attribute name": "LDAP attribute name",
+    "LDAP attribute name": "LDAP-attribuutnaam",
     "Last Sync": "Laatste synchronisatie",
     "Search Filter": "Zoekfilter",
     "Search Filter - Tooltip": "Zoekfilter - Tooltip",
@@ -1161,7 +1161,7 @@
     "Table": "Tabel",
     "Table - Tooltip": "Naam van de databasetabel",
     "Table columns": "Tabelkolommen",
-    "Table columns - Tooltip": "Tabelkolommen",
+    "Table columns - Tooltip": "Tabelkolommen die betrokken zijn bij gegevenssynchronisatie. Kolommen die niet betrokken zijn bij synchronisatie hoeven niet te worden toegevoegd",
     "Test DB Connection": "Databaseverbinding testen"
   },
   "system": {
@@ -1303,9 +1303,9 @@
     "Region": "Region",
     "Region - Tooltip": "Region - Tooltip",
     "Register source": "Register source",
-    "Register source - Tooltip": "The source from which the user was registered",
+    "Register source - Tooltip": "De bron waarvan de gebruiker is geregistreerd",
     "Register type": "Register type",
-    "Register type - Tooltip": "The method used to register the user",
+    "Register type - Tooltip": "De methode die wordt gebruikt om de gebruiker te registreren",
     "Reset Email...": "E-mailadres resetten...",
     "Reset Phone...": "Telefoonnummer resetten...",
     "Score": "Score",
